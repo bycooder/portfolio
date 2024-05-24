@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>NS Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">folio<b>.</b></div>
+        <ul class="navItems">
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">skills</a></li>
+          <li><a href="#">blog</a></li>
+        </ul>
+        <div class="links">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </nav>
+      <div class="wrapper">
+        <div class="cols cols0">
+          <span class="topline">Hello</span>
+          <h1>I'm <span class="multiText"></span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+            deserunt accusamus quaerat ducimus id dignissimos veritatis ullam
+            earum reiciendis officia provident? Incidunt earum fugiat ex dolor
+            ducimus, labore aspernatur esse.
+          </p>
+          <div class="btns">
+            <a href="img/Screenshot 2024-05-24 132840.png" download="CV"
+              ><button>download cv</button></a
+            >
+            <a href="https://www.linkedin.com/in/sardorbek-norqulov-10a8a4271/"
+              ><button>hire me</button></a
+            >
+          </div>
+        </div>
+        <div class="cols cols1">
+          <div class="imgbox">
+            <img
+              src="./img/brush-stroke-banner-background.jpg"
+              alt=""
+              id="splash"
+            />
+            <img src="./img/sardor.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typingEffect = new Typed(".multiText", {
+        strings: ["coder", "freelancer", "student", "gamer"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500,
+      });
+    </script>
+  </body>
+</html>

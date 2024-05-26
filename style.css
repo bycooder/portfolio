@@ -154,7 +154,7 @@ button {
   padding: 8px 14px;
   margin: 40px 5px;
   letter-spacing: 2px;
-  text-transform: capitalize;
+  
   box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
 }
 button:hover {
